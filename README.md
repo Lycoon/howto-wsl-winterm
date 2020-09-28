@@ -32,14 +32,20 @@ A custom `settings.json` file is provided in the repository. It includes functio
 - Hides the unnecessary terminals from the dropdown list
 - Opens your WSL by default when launching Windows Terminal
 - Opens your WSL by default in a specific directory
+
 Change `startingDirectory` directory to update the location where WSL will be set by default or remove the line to set it in the default WSL directory.
+
 - Sets a custom tab title by default for your WSL
+
 Change `tabTitle` value to update it or remove both `suppressApplicationTitle` and `tabTitle` lines to keep the default WSL title instead.
 - Sets a custom tab icon by default for your WSL
+
 Change `icon` directory to update the picture attached to the WSL or remove the line to keep the default Linux icon
 - Sets a custom tab color by default for your WSL.
+
 Change `tabColor` hexadecimal value to update the default color of your WSL tabs or remove the line to keep the default one.
 - Sets the `Campbell` theme as default
+
 The theme can be changed in the `profiles > defaults` part of the file.
 `useAcrylic` indicates whether or not you want the background to be blurred.
 `acrylicOpacity` is the opacity of that background, it ranges from 0 to 1.
