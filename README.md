@@ -23,7 +23,7 @@ fi
 4. Your WSL should now appear in Windows Terminal dropdown menu by clicking the down arrow.
 
 ### Customizing Windows Terminal
-Accessing Windows Terminal settings can be done either by clicking the down arrow near the plus sign and `Settings`, or with `Ctrl + ,`.
+Accessing Windows Terminal settings can be done either by clicking the down arrow near the plus sign and `Settings`, or with `Ctrl + ,` shortcut.
 
 A custom `settings.json` file is provided in the repository. It includes functional and graphical features that I found interesting to be set as defaults. It adds the following:
 <ul>
@@ -51,4 +51,4 @@ A custom `settings.json` file is provided in the repository. It includes functio
 <li>"fontFace" refers to the terminal default font.</li></ul>
 </ul>
 
-If you didn't get enough of help, check more [here](https://docs.microsoft.com/en-us/windows/terminal/tutorials/tab-title) about customization.
+If you didn't get enough of help, check more <a href="https://docs.microsoft.com/en-us/windows/terminal/tutorials/tab-title" target="_blank">here</a> about customization.
