@@ -29,28 +29,28 @@ Accessing Windows Terminal settings can be done either by
 
 A custom `settings.json` file is provided in the repository. It includes functional and graphical features that I found interesting to be set as defaults. It adds the following:
 <ul>
-<li>`Ctrl + Space` shortcut to make Windows Terminal stick to the foreground</li>
+<li>"Ctrl + Space" shortcut to make Windows Terminal stick to the foreground</li>
 <li>Hides the unnecessary terminals from the dropdown list</li>
 <li>Opens your WSL by default when launching Windows Terminal</li>
 
 <li>Opens your WSL by default in a specific directory</li>
-<ul><li>Change `startingDirectory` directory to update the location where WSL will be set by default or remove the line to set it in the default WSL directory.</li></ul>
+<ul><li>Change "startingDirectory" directory to update the location where WSL will be set by default or remove the line to set it in the default WSL directory.</li></ul>
 
 <li>Sets a custom tab title by default for your WSL</li>
-<ul><li>Change `tabTitle` value to update it or remove both `suppressApplicationTitle` and `tabTitle` lines to keep the default WSL title instead.</li></ul>
+<ul><li>Change "tabTitle" value to update it or remove both "suppressApplicationTitle" and "tabTitle" lines to keep the default WSL title instead.</li></ul>
 
 <li>Sets a custom tab icon by default for your WSL</li>
-<ul><li>Change `icon` directory to update the picture attached to the WSL or remove the line to keep the default Linux icon.</li></ul>
+<ul><li>Change "icon" directory to update the picture attached to the WSL or remove the line to keep the default Linux icon.</li></ul>
 
 <li>Sets a custom tab color by default for your WSL.</li>
-<ul><li>Change `tabColor` hexadecimal value to update the default color of your WSL tabs or remove the line to keep the default one.</li></ul>
+<ul><li>Change "tabColor" hexadecimal value to update the default color of your WSL tabs or remove the line to keep the default one.</li></ul>
 
-<li>Sets the `Campbell` theme as default. The theme can be changed in the `profiles > defaults` part of the file.</li>
-<ul><li>`useAcrylic` indicates whether or not you want the background to be blurred.</li>
-<li>`acrylicOpacity` is the opacity of that background, it ranges from 0 to 1.</li>
-<li>`colorScheme` indicates the set of colors to be used by Windows Terminal. It can be adjusted in the `schemes` part.</li>
-<li>`cursorColor` indicates the hexidecimal color of the terminal cursor.</li>
-<li>`fontFace` refers to the terminal default font.</li></ul>
+<li>Sets the Campbell theme as default. The theme can be changed in the "profiles > defaults" part of the file.</li>
+<ul><li>"useAcrylic" indicates whether or not you want the background to be blurred.</li>
+<li>"acrylicOpacity" is the opacity of that background, it ranges from 0 to 1.</li>
+<li>"colorScheme" indicates the set of colors to be used by Windows Terminal. It can be adjusted in the "schemes" part.</li>
+<li>"cursorColor" indicates the hexidecimal color of the terminal cursor.</li>
+<li>"fontFace" refers to the terminal default font.</li></ul>
 </ul>
 
 If you didn't get enough of help, check more [here](https://docs.microsoft.com/en-us/windows/terminal/tutorials/tab-title) about customization.
