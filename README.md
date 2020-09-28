@@ -23,9 +23,7 @@ fi
 4. Your WSL should now appear in Windows Terminal dropdown menu by clicking the down arrow.
 
 ### Customizing Windows Terminal
-Accessing Windows Terminal settings can be done either by:
-<ul><li>Clicking the down arrow near the plus sign and clicking "Settings"</li>
-<li>Ctrl + ,</li></ul>
+Accessing Windows Terminal settings can be done either by clicking the down arrow near the plus sign and `Settings`, or with `Ctrl + ,`.
 
 A custom `settings.json` file is provided in the repository. It includes functional and graphical features that I found interesting to be set as defaults. It adds the following:
 <ul>
