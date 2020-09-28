@@ -1,7 +1,7 @@
-![WSL Windows Terminal preview](/banner.png)
-
 # Setup WSL with Windows Terminal
-The tutorial assumes you already have a WSL installed on your machine.
+This repository aims to provide simple step-by-step process to access your favorite WSL through the Windows Terminal. It also includes a configuration file that I estimate containing most interesting features. The tutorial assumes you already have a WSL installed on your machine.
+
+![WSL Windows Terminal preview](/banner.png)
 
 ### Add WSL to Windows Terminal
 1. Open your terminal and execute the following.
@@ -20,12 +20,12 @@ if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 ```
-4. Your WSL should appear in Windows Terminal.
+4. Your WSL should now appear in Windows Terminal dropdown menu by clicking the down arrow.
 
 ### Customizing Windows Terminal
 Accessing Windows Terminal settings can be done either by:
 <ul><li>Clicking the down arrow near the plus sign and clicking "Settings"</li>
-<li>"Ctrl + ,"</li></ul>
+<li>Ctrl + ,</li></ul>
 
 A custom `settings.json` file is provided in the repository. It includes functional and graphical features that I found interesting to be set as defaults. It adds the following:
 <ul>
