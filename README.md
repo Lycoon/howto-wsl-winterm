@@ -3,7 +3,7 @@ This repository aims to provide simple step-by-step process to access your favor
 
 ![WSL Windows Terminal preview](/banner.png)
 
-### Add WSL to Windows Terminal
+### Allow WSL customization for Windows Terminal
 1. Open your terminal and execute the following.
 ```bash
 sudo apt install golang-go
@@ -20,7 +20,6 @@ if [ "$TERM" != "linux" ] && [ -f "$GOPATH/bin/powerline-go" ]; then
     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
 fi
 ```
-4. Your WSL should now appear in Windows Terminal dropdown menu by clicking the down arrow.
 
 ### Customizing Windows Terminal
 Accessing Windows Terminal settings can be done either by clicking the down arrow near the plus sign and `Settings`, or with `Ctrl + ,` shortcut.
